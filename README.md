@@ -119,12 +119,29 @@ Install these four skills from GitHub into ~/.claude/skills, each in a folder na
 
 **Or one at a time:**
 
-| Skill | Paste this |
-| --- | --- |
-| market-research | `Install the skill from https://github.com/CollectingDaily/claude-market-research into ~/.claude/skills/claude-market-research` |
-| market-report-layout | `Install the skill from https://github.com/CollectingDaily/claude-market-report-layout into ~/.claude/skills/claude-market-report-layout` |
-| report-typesetter | `Install the skill from https://github.com/CollectingDaily/claude-report-typesetter into ~/.claude/skills/claude-report-typesetter` |
-| humaniser | `Install the skill from https://github.com/CollectingDaily/claude-humaniser into ~/.claude/skills/claude-humaniser` |
+market-research
+
+```text
+Install the skill from https://github.com/CollectingDaily/claude-market-research into ~/.claude/skills/claude-market-research
+```
+
+market-report-layout
+
+```text
+Install the skill from https://github.com/CollectingDaily/claude-market-report-layout into ~/.claude/skills/claude-market-report-layout
+```
+
+report-typesetter
+
+```text
+Install the skill from https://github.com/CollectingDaily/claude-report-typesetter into ~/.claude/skills/claude-report-typesetter
+```
+
+humaniser
+
+```text
+Install the skill from https://github.com/CollectingDaily/claude-humaniser into ~/.claude/skills/claude-humaniser
+```
 
 > [!TIP]
 > **The folder name matters.** Each skill must sit in `~/.claude/skills/` in a folder named exactly like its repository, such as `claude-market-research`. The sentences above take care of that.
