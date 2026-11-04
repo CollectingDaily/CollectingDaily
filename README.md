@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/banner.svg" alt="Collecting Daily: Claude skills for research, writing and publishing" width="100%"></p>
+<p align="center"><img src="docs/banner.svg" alt="Collecting Daily: Claude skills for research and publishing, over a painting of a poppy field" width="100%"></p>
 
 <p align="center">
   <a href="#the-skills"><strong>The skills</strong></a> ·
