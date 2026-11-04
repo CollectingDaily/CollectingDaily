@@ -13,13 +13,14 @@
 
 ## The skills
 
-<p align="center"><img src="docs/skills.svg" alt="Four skills: market-research, market-report-layout, report-typesetter and humaniser, each with what it does and what it needs" width="100%"></p>
+<p align="center"><img src="docs/skills.svg" alt="Five skills: market-research, market-report-layout, report-typesetter, memorabilia-research and humaniser, each with what it does and what it needs" width="100%"></p>
 
 | Skill | Use it when you want to… | Its page |
 | --- | --- | --- |
 | **market-research** | research a collecting market before you write a market report | [claude-market-research](https://github.com/CollectingDaily/claude-market-research) |
 | **market-report-layout** | turn your finished market report into the PF and CD PDFs | [claude-market-report-layout](https://github.com/CollectingDaily/claude-market-report-layout) |
 | **report-typesetter** | lay out any other article or report as a designed PDF | [claude-report-typesetter](https://github.com/CollectingDaily/claude-report-typesetter) |
+| **memorabilia-research** | research an article (a top 10, a beginners' guide or a dealer guide) and write it yourself | [claude-memorabilia-skill](https://github.com/CollectingDaily/claude-memorabilia-skill) |
 | **humaniser** | make anything written with AI read like a person wrote it | [claude-humaniser](https://github.com/CollectingDaily/claude-humaniser) |
 
 Each skill's page explains, with pictures, exactly what it does and what it needs from you.
@@ -111,10 +112,10 @@ python3 --version
 4. **Click Allow** when Claude asks to download the skill.
 5. **Quit the Claude app completely** (**Claude** menu → **Quit**, or **⌘ Q**) and open it again. Then type **/** in the message box: the skill's name appears in the list. If it does, it's installed.
 
-**All four skills at once:**
+**All five skills at once:**
 
 ```text
-Install these four skills from GitHub into ~/.claude/skills, each in a folder named exactly like its repository: https://github.com/CollectingDaily/claude-market-research https://github.com/CollectingDaily/claude-market-report-layout https://github.com/CollectingDaily/claude-report-typesetter https://github.com/CollectingDaily/claude-humaniser
+Install these five skills from GitHub into ~/.claude/skills, each in a folder named exactly like its repository: https://github.com/CollectingDaily/claude-market-research https://github.com/CollectingDaily/claude-market-report-layout https://github.com/CollectingDaily/claude-report-typesetter https://github.com/CollectingDaily/claude-memorabilia-skill https://github.com/CollectingDaily/claude-humaniser
 ```
 
 **Or one at a time:**
@@ -135,6 +136,12 @@ report-typesetter
 
 ```text
 Install the skill from https://github.com/CollectingDaily/claude-report-typesetter into ~/.claude/skills/claude-report-typesetter
+```
+
+memorabilia-research
+
+```text
+Install the skill from https://github.com/CollectingDaily/claude-memorabilia-skill into ~/.claude/skills/claude-memorabilia-skill
 ```
 
 humaniser
@@ -173,6 +180,7 @@ Open the Claude app, click **Code**, and **select the folder that holds your fil
 | research a market | `/market-research Research the autographs market` |
 | lay out your finished market report | `/market-report-layout Lay out the report in this folder` |
 | lay out any other article | `/report-typesetter Make the report from the article and images in this folder. Label it BUYING GUIDE.` |
+| research an article | `/memorabilia-research Research a top 10 article on the most valuable stamps ever sold at auction` |
 | humanise text | `/humaniser` and paste the text underneath |
 
 Click **Allow** when Claude asks to run something for the job you asked for. Your finished files appear in the folder you selected.
@@ -195,21 +203,21 @@ brew update && brew upgrade
 
 ## What each tool is for
 
-| Tool | What it does | market-research | market-report-layout | report-typesetter | humaniser |
-| --- | --- | :---: | :---: | :---: | :---: |
-| **Claude app** | runs every skill (Code tab, paid plan) | ✅ | ✅ | ✅ | ✅ |
-| **Homebrew** | installs and updates everything below | ✅ | ✅ | ✅ | |
-| **Python 3** | runs the skills' scripts | ✅ | ✅ | ✅ | |
-| **Google Chrome** | draws the pages; reads pages behind logins | ✅ with the Claude extension | ✅ | ✅ | |
-| **pandoc** | makes the Word copy of the research | ✅ | | | |
-| **poppler** | reads the finished PDFs: page previews, and the check that both editions match | | ✅ | recommended | |
-| **LibreOffice** | opens older Word files (.doc, .rtf) | | optional | optional | |
+| Tool | What it does | market-research | market-report-layout | report-typesetter | memorabilia-research | humaniser |
+| --- | --- | :---: | :---: | :---: | :---: | :---: |
+| **Claude app** | runs every skill (Code tab, paid plan) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Homebrew** | installs and updates everything below | ✅ | ✅ | ✅ | ✅ | |
+| **Python 3** | runs the skills' scripts | ✅ | ✅ | ✅ | ✅ | |
+| **Google Chrome** | draws the pages; reads pages behind logins | ✅ with the Claude extension | ✅ | ✅ |  | |
+| **pandoc** | makes the Word copy of the research | ✅ | | | ✅ | |
+| **poppler** | reads the finished PDFs: page previews, and the check that both editions match | | ✅ | recommended |  | |
+| **LibreOffice** | opens older Word files (.doc, .rtf) | | optional | optional |  | |
 
 ---
 
 ## Not on a Mac?
 
-On **Windows**, report-typesetter, market-report-layout and humaniser are written to run too (they've been tested on a Mac only so far). Install **Python Install Manager** from the **Microsoft Store**; Microsoft Edge, which every Windows PC has, draws the pages. Install skills the same way, with the sentences above. **market-research needs a Mac.**
+On **Windows**, report-typesetter, market-report-layout, memorabilia-research and humaniser are written to run too (they've been tested on a Mac only so far). Install **Python Install Manager** from the **Microsoft Store**; Microsoft Edge, which every Windows PC has, draws the pages. Install skills the same way, with the sentences above. **market-research needs a Mac.**
 
 ---
 
