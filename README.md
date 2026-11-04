@@ -130,6 +130,5 @@ On **Windows**, report-typesetter, market-report-layout and humaniser are writte
 
 ## Access and help
 
-- **Getting access.** The skills are private. Ask for your GitHub account to be added to Collecting Daily.
 - **Installing a skill.** On its page: green **Code** button → **Download ZIP**, then in the Claude app's **Code** tab drag the ZIP into the message box and type *Install this skill as a personal skill*. Restart the app.
 - **Something not working?** Tell Claude what you did and paste the message you got. Most problems are a missing tool: run the checks in [Check it worked](#check-it-worked).
